@@ -24,7 +24,7 @@ let segundos = 0;
 let minutos = 0;
 let horas = 0;
 function ajusteTiempo(horas, minutos, segundos, milisegundos) {
-  let cronometroIndex = document.querySelector("h2");
+  let cronometroIndex = document.querySelector("#cronometro");
   if (horas < 10) {
     horas = "0" + horas;
   }
